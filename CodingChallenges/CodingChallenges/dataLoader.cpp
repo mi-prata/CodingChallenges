@@ -7,3 +7,16 @@
 //
 
 #include "dataLoader.hpp"
+
+void load_Data(const std::string &fileName, std::vector<std::string> &wordsFound)
+{
+    std::ifstream myfile (fileName);
+    std::string line;
+    
+    if (myfile.is_open()) {
+        while (std::getline(myfile, line)) {
+            wordsFound.push_back(line);
+        }
+    }
+    myfile.close();
+}

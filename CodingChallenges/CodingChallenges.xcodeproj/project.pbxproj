@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		603CD8FD20C43DF1007FB624 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603CD8FC20C43DF1007FB624 /* main.cpp */; };
+		603CD90520C43E5B007FB624 /* auxiliarStringFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603CD90320C43E5B007FB624 /* auxiliarStringFunctions.cpp */; };
+		603CD90820C43F33007FB624 /* dataLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603CD90620C43F33007FB624 /* dataLoader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		603CD8F920C43DF1007FB624 /* CodingChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		603CD8FC20C43DF1007FB624 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		603CD90320C43E5B007FB624 /* auxiliarStringFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auxiliarStringFunctions.cpp; sourceTree = "<group>"; };
+		603CD90420C43E5B007FB624 /* auxiliarStringFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = auxiliarStringFunctions.hpp; sourceTree = "<group>"; };
+		603CD90620C43F33007FB624 /* dataLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dataLoader.cpp; sourceTree = "<group>"; };
+		603CD90720C43F33007FB624 /* dataLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dataLoader.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				603CD8FC20C43DF1007FB624 /* main.cpp */,
+				603CD90320C43E5B007FB624 /* auxiliarStringFunctions.cpp */,
+				603CD90420C43E5B007FB624 /* auxiliarStringFunctions.hpp */,
+				603CD90620C43F33007FB624 /* dataLoader.cpp */,
+				603CD90720C43F33007FB624 /* dataLoader.hpp */,
 			);
 			path = CodingChallenges;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				603CD8FD20C43DF1007FB624 /* main.cpp in Sources */,
+				603CD90520C43E5B007FB624 /* auxiliarStringFunctions.cpp in Sources */,
+				603CD90820C43F33007FB624 /* dataLoader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
