@@ -36,6 +36,8 @@ void find_Palindromes(const std::vector<std::string> &wordList, std::vector<std:
     }
 }
 
+bool is_palindrome(const std::string& s) {return equal(s.begin(), s.end(), s.rbegin()); }
+
 int longest_Substring(const std::string &s)
 {
     std::string buffer, charHolder;
@@ -85,3 +87,5 @@ std::string find_Largest(const std::vector<std::string> &wordList)
     for (std::size_t i = 0; i < wordList.size(); ++i) if (wordList[i].size() > largest.size()) largest = wordList[i];
     return largest;
 }
+
+

@@ -24,6 +24,8 @@
 
 //Identifies palindromes in a list. Assumes all words to be lower case.
 void find_Palindromes(const std::vector<std::string> &wordList, std::vector<std::string> &palindromes);
+//Returns true if a string is palindrome, false otherwise.
+bool is_palindrome(const std::string& s);
 
 //For an input string identifies all substrings composed of unique characters.
 //Returns the length of the longest substring.
@@ -33,3 +35,5 @@ int longest_Substring(const std::string &s);
 
 //Returns the longest string from a set of input strings.
 std::string find_Largest(const std::vector<std::string> &wordList);
+
+

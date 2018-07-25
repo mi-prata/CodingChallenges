@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
 
     //Full path to file with list of words for analysis.
-    std::string fileLocation = "Users/miguelprata/Desktop/coding/wordList.txt";
+    std::string fileLocation = "/Users/miguelprata/Desktop/coding/wordList.txt";
     std::vector<std::string> listOfWords;
     std::vector<std::string> foundPalindromes;
     
@@ -23,12 +23,14 @@ int main(int argc, const char * argv[]) {
     find_Palindromes(listOfWords, foundPalindromes);
     
     //Print
-    std::cout << "Found " << foundPalindromes.size() << " palindromes. " << std::endl;
-    for (std::size_t i = 0 ; i < foundPalindromes.size(); ++i) std::cout << foundPalindromes[i] << " ";
+    std::cout << "Found " << foundPalindromes.size() << " palindromes. \n" << std::endl;
+    for (auto palindrome : foundPalindromes) std::cout << palindrome << " ";
     
     //Identify largest palindrome
     std::string bigOne = find_Largest(foundPalindromes);
-    std::cout << "\nThe largest one is: " << bigOne << std::endl;
+    std::cout << "\n\nThe largest one is: " << bigOne << std::endl;
+    
+    std:: cout << is_palindrome("redder");
     
     //Lenght of longest substring without repeating characters
     std::cout << std::endl;

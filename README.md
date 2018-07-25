@@ -23,4 +23,6 @@ Examples:
 
 * Palindromes - [find_Palindromes](https://github.com/mi-prata/CodingChallenges/blob/5170debbe7a9f9fd6d897b1d4b3218d29a437a2a/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L11)
 
+This problem can be solved with a more elegant solution than the one I initially implemented, simply by using functions from the standard library, function [is_palindrome](https://github.com/mi-prata/CodingChallenges/blob/5170debbe7a9f9fd6d897b1d4b3218d29a437a2a/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L39).
+
 * Length of longest substring without repeating characters - [longest_Substring](https://github.com/mi-prata/CodingChallenges/blob/5170debbe7a9f9fd6d897b1d4b3218d29a437a2a/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L39)
