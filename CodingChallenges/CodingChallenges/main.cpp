@@ -28,14 +28,19 @@ int main(int argc, const char * argv[]) {
     
     //Identify largest palindrome
     std::string bigOne = find_Largest(foundPalindromes);
-    std::cout << "\n\nThe largest one is: " << bigOne << std::endl;
-    
-    std:: cout << is_palindrome("redder");
+    std::cout << "\nThe largest one is: " << bigOne << std::endl;
     
     //Lenght of longest substring without repeating characters
     std::cout << std::endl;
     int lenght = longest_Substring("pwwkew");
     std::cout << "\nThe largest one is " << lenght << " characters long." << std::endl << std::endl;
     
+    //Max consecutive ones
+    std::vector<int> binaryArray = {1,1,0,1,1,1};
+    std::cout << "The binary array is: ";
+    for (auto bit : binaryArray) std::cout << bit;
+        
+    auto answer = findMaxConsecutiveOnes (binaryArray);
+    std::cout << "\nThe maximum number of consecutive 1s is " << answer << "." << std::endl << std::endl;
     return 0;
 }

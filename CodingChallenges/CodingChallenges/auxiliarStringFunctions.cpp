@@ -71,6 +71,7 @@ int longest_Substring(const std::string &s)
         if (i == s.size()) substrings.push_back(buffer);
     }
     //Outputs all substrings and registers the size of the longest one.
+    std::cout << "The string is: " << s << std::endl;
     std::cout << "The substrings are: ";
     for (std::size_t i = 0; i < substrings.size(); ++i) {
         std::cout << substrings[i] << " ";
@@ -88,4 +89,21 @@ std::string find_Largest(const std::vector<std::string> &wordList)
     return largest;
 }
 
+int findMaxConsecutiveOnes(std::vector<int>& nums)
+{
+    int counter = 0;
+    std::vector<int> sequenceOfOnes;
+    
+    for (std::vector<int>::iterator it = nums.begin() ; it != nums.end(); ++it)
+    {
+        if(*it == 1) ++ counter;
 
+        if(*it == 0 || it == nums.end() - 1)
+        {
+            sequenceOfOnes.push_back(counter);
+            counter = 0;
+        }
+    }
+    auto maxConsecutiveOnes  = *max_element(sequenceOfOnes.begin(), sequenceOfOnes.end());
+    return maxConsecutiveOnes;
+}

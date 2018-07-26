@@ -32,8 +32,8 @@ bool is_palindrome(const std::string& s);
 //Uses a non optimized sliding window technique. Could be improved to increment more than one character at a time, by using a map.
 int longest_Substring(const std::string &s);
 
-
 //Returns the longest string from a set of input strings.
 std::string find_Largest(const std::vector<std::string> &wordList);
 
-
+//Max consecutive ones
+int findMaxConsecutiveOnes(std::vector<int>& nums);
