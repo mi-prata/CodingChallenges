@@ -44,6 +44,6 @@ Example 1:
 The length of input array is a positive integer and will not exceed 10,000
 
 
-* [findMaxConsecutiveOnes](https://leetcode.com/problems/max-consecutive-ones/description/)
+* [findMaxConsecutiveOnes](https://github.com/mi-prata/CodingChallenges/blob/3961df6e81e431bc0113ec3856f490cab47a776e/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L92)
 
 ___
