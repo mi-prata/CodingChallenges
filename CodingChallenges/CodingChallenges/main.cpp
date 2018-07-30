@@ -6,8 +6,11 @@
 //  Copyright © 2018 Miguel Prata. All rights reserved.
 //
 
-#include "auxiliarStringFunctions.hpp"
 #include "dataLoader.hpp"
+#include "find_palindromes.hpp"
+#include "longest_substring.hpp"
+#include "find_max_consecutive_ones.hpp"
+#include "zig_zag_conversion.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -28,7 +31,7 @@ int main(int argc, const char * argv[]) {
     
     //Identify largest palindrome
     std::string bigOne = find_Largest(foundPalindromes);
-    std::cout << "\nThe largest one is: " << bigOne << std::endl;
+    std::cout << "\nThe  largest one is: " << bigOne << std::endl;
     
     //Lenght of longest substring without repeating characters
     std::cout << std::endl;
@@ -42,5 +45,14 @@ int main(int argc, const char * argv[]) {
         
     auto answer = findMaxConsecutiveOnes (binaryArray);
     std::cout << "\nThe maximum number of consecutive 1s is " << answer << "." << std::endl << std::endl;
+    
+    //ZigZag conversion
+    std::string inputZigZag = "PAYPALISHIRING";
+    std::cout << "The string to convert is: " << inputZigZag << std::endl;
+    int numRows = 4;
+    auto zigZagResult = convertZigZag (inputZigZag,numRows);
+    std::cout << "The converted string is: " << zigZagResult << std::endl;
+    
+    
     return 0;
 }

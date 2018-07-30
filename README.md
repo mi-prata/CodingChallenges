@@ -28,7 +28,7 @@ Examples:
 
 ___
 
-* Max Consecutive Ones from, [leetCode](https://leetcode.com/problems/max-consecutive-ones/description/)
+* Max Consecutive Ones from [leetCode](https://leetcode.com/problems/max-consecutive-ones/description/)
 >Given a binary array, find the maximum number of consecutive 1s in this array.
 Example 1:
 >Input: [1,1,0,1,1,1]
@@ -47,3 +47,7 @@ The length of input array is a positive integer and will not exceed 10,000
 * [findMaxConsecutiveOnes](https://github.com/mi-prata/CodingChallenges/blob/3961df6e81e431bc0113ec3856f490cab47a776e/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L92)
 
 ___
+* ZigZag conversion from [leetCode](https://leetcode.com/problems/zigzag-conversion/description/)
+>Receives a string and writes it in zig zag pattern across a given number of rows (input parameter).
+
+* [convertZigZag](https://github.com/mi-prata/CodingChallenges/blob/3961df6e81e431bc0113ec3856f490cab47a776e/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L92)
