@@ -8,9 +8,9 @@ ___
 >Palindromes are words that are spelled the same right to left as left to right. Write a program to find all the palindromes in a dictionary. Next, find the longest palindrome.
 
 
-* [find_Palindromes](https://github.com/mi-prata/CodingChallenges/blob/f7e99a1170b4f8a789e216e335dcb4db8d5ba0cc/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L11)
+* [find_Palindromes](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/find_palindromes.cpp#L11)
 
-This problem can be solved with a more elegant solution than the one I initially implemented, simply by using functions from the standard library, function [is_palindrome](https://github.com/mi-prata/CodingChallenges/blob/f7e99a1170b4f8a789e216e335dcb4db8d5ba0cc/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L39).
+This problem can be solved with a more elegant solution than the one I initially implemented, simply by using functions from the standard library, function [is_palindrome](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/find_palindromes.cpp#L39).
 
 ___
 
@@ -24,7 +24,7 @@ Examples:
 >
 >Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-* [longest_Substring](https://github.com/mi-prata/CodingChallenges/blob/f7e99a1170b4f8a789e216e335dcb4db8d5ba0cc/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L41)
+* [longest_Substring](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)
 
 ___
 
@@ -44,7 +44,7 @@ Example 1:
 The length of input array is a positive integer and will not exceed 10,000
 
 
-* [findMaxConsecutiveOnes](https://github.com/mi-prata/CodingChallenges/blob/3961df6e81e431bc0113ec3856f490cab47a776e/CodingChallenges/CodingChallenges/auxiliarStringFunctions.cpp#L92)
+* [findMaxConsecutiveOnes](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/find_max_consecutive_ones.cpp#L12)
 
 ___
 * ZigZag conversion from [leetCode](https://leetcode.com/problems/zigzag-conversion/description/)
