@@ -11,6 +11,7 @@
 #include "longest_substring.hpp"
 #include "find_max_consecutive_ones.hpp"
 #include "zig_zag_conversion.hpp"
+#include "3sums.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -53,6 +54,8 @@ int main(int argc, const char * argv[]) {
     auto zigZagResult = convertZigZag (inputZigZag,numRows);
     std::cout << "The converted string is: " << zigZagResult << std::endl;
     
-    
+    //3Sums
+    std::vector<int> nums = {-1, 0, 1, 2, -1, -4};
+    threeSum (nums);
     return 0;
 }
