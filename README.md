@@ -51,3 +51,13 @@ ___
 >Receives a string and writes it in zig zag pattern across a given number of rows (input parameter).
 
 * [convertZigZag](https://github.com/mi-prata/CodingChallenges/blob/1fdf1b17b4520cd496df0213a3b1b78f21fef8e6/CodingChallenges/CodingChallenges/zig_zag_conversion.cpp#L9)
+
+___
+
+
+
+* 3Sum [leetCode](https://leetcode.com/problems/3sum/description/)
+>Given an array **nums** of *n* integers, are there elements *a, b, c* in **nums** such that *a + b + c* = 0? Find all unique triplets in the array which gives the sum of zero.
+> Note: The solution set must not contain duplicate triplets.
+
+* [threeSum](https://github.com/mi-prata/CodingChallenges/blob/5e2dc373a089f9ddac13f1d9d4ab6a8df1d10dfa/codingChallenges/codingChallenges/3sums.cpp#L11)
