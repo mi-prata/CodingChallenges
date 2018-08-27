@@ -12,6 +12,8 @@
 #include "find_max_consecutive_ones.hpp"
 #include "zig_zag_conversion.hpp"
 #include "3sums.hpp"
+#include "twoSum.hpp"
+
 
 int main(int argc, const char * argv[]) {
 
@@ -54,8 +56,30 @@ int main(int argc, const char * argv[]) {
     auto zigZagResult = convertZigZag (inputZigZag,numRows);
     std::cout << "The converted string is: " << zigZagResult << std::endl;
     
+    //Two Sum
+    std::vector<int> nums = {3,2,3};
+    int target = 6;
+    auto twoSumFastAnswer = twoSumFast(nums, target);
+    std::cout << "\nThe array is [";
+    for (auto i : nums) std::cout << i << " ";
+    std::cout << "]\nThe target value is: " << target;
+    std::cout << "\nThe indexes whose values sum equals the target are: ";
+    for (auto i : twoSumFastAnswer) std::cout << i << " ";
+    std::cout << std::endl;
+    
     //3Sums
-    std::vector<int> nums = {-1, 0, 1, 2, -1, -4};
-    threeSum (nums);
+    std::vector<int> threeSumsInput = {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
+    std::cout << "\nThe array is [";
+    for (auto i : threeSumsInput) std::cout << i << " ";
+    std::cout << "]\nThe solution set is: \n";
+    auto threeSumAnswer = threeSum (threeSumsInput);
+    for (auto aSolution : threeSumAnswer)
+    {
+        for(auto anElement : aSolution) std::cout << anElement << " ";
+        std::cout << std::endl;
+    }
+    
+    
+    
     return 0;
 }

@@ -56,8 +56,20 @@ ___
 
 
 
-* 3Sum [leetCode](https://leetcode.com/problems/3sum/description/)
+* 3Sum from  [leetCode](https://leetcode.com/problems/3sum/description/)
 >Given an array **nums** of *n* integers, are there elements *a, b, c* in **nums** such that *a + b + c* = 0? Find all unique triplets in the array which gives the sum of zero.
+>
 > Note: The solution set must not contain duplicate triplets.
 
 * [threeSum](https://github.com/mi-prata/CodingChallenges/blob/5e2dc373a089f9ddac13f1d9d4ab6a8df1d10dfa/codingChallenges/codingChallenges/3sums.cpp#L11)
+
+___
+
+
+
+* Two Sum from [leetCode](https://leetcode.com/problems/3sum/description/)
+> Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+>
+> You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+* [twoSum](https://github.com/mi-prata/CodingChallenges/blob/5e2dc373a089f9ddac13f1d9d4ab6a8df1d10dfa/codingChallenges/codingChallenges/3sums.cpp#L11)

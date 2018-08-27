@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		60037782210A85A300467657 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60037781210A85A300467657 /* main.cpp */; };
 		601E9270213168C400D2823D /* 3sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 601E926E213168C400D2823D /* 3sums.cpp */; };
+		6033B0AA2131FAB300A71F3E /* twoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6033B0A82131FAB300A71F3E /* twoSum.cpp */; };
 		604919AF210A85E500A2C078 /* libraries.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604919AD210A85E400A2C078 /* libraries.cpp */; };
 		604919B0210A85E500A2C078 /* dataLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604919AE210A85E400A2C078 /* dataLoader.cpp */; };
 		60819CA4210E017C00FE2640 /* myTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60819CA2210E017C00FE2640 /* myTypes.cpp */; };
@@ -35,6 +36,8 @@
 		60037781210A85A300467657 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		601E926E213168C400D2823D /* 3sums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3sums.cpp; sourceTree = "<group>"; };
 		601E926F213168C400D2823D /* 3sums.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 3sums.hpp; sourceTree = "<group>"; };
+		6033B0A82131FAB300A71F3E /* twoSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twoSum.cpp; sourceTree = "<group>"; };
+		6033B0A92131FAB300A71F3E /* twoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = twoSum.hpp; sourceTree = "<group>"; };
 		604919AB210A85E400A2C078 /* libraries.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = libraries.hpp; sourceTree = "<group>"; };
 		604919AC210A85E400A2C078 /* dataLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dataLoader.hpp; sourceTree = "<group>"; };
 		604919AD210A85E400A2C078 /* libraries.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libraries.cpp; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				60819CAC210E078F00FE2640 /* find_max_consecutive_ones.hpp */,
 				60819CAE210E0BB800FE2640 /* zig_zag_conversion.cpp */,
 				60819CAF210E0BB800FE2640 /* zig_zag_conversion.hpp */,
+				6033B0A82131FAB300A71F3E /* twoSum.cpp */,
+				6033B0A92131FAB300A71F3E /* twoSum.hpp */,
 			);
 			path = codingChallenges;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				60037782210A85A300467657 /* main.cpp in Sources */,
 				60819CAD210E078F00FE2640 /* find_max_consecutive_ones.cpp in Sources */,
 				60819CA7210E065100FE2640 /* find_palindromes.cpp in Sources */,
+				6033B0AA2131FAB300A71F3E /* twoSum.cpp in Sources */,
 				604919AF210A85E500A2C078 /* libraries.cpp in Sources */,
 				604919B0210A85E500A2C078 /* dataLoader.cpp in Sources */,
 				601E9270213168C400D2823D /* 3sums.cpp in Sources */,

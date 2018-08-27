@@ -8,47 +8,60 @@
 
 #include "3sums.hpp"
 
+void findC (const int &a, const int &b,
+             const std::unordered_map<int,int> &numsMap,
+             const std::size_t &i,
+             std::vector<std::vector <int>> &solutionSet)
+{
+    auto c = -b -a;
+    //Check if element exists in the input using the map
+    auto iter = numsMap.find(c);
+    // If yes and b and c are not the same element 
+    if (iter  != numsMap.end()
+        && numsMap.find(c)->second != i)
+    {
+        std::vector<int> aSolution {a, b, c};
+        std::sort(aSolution.begin(),aSolution.end());
+        //Only insert the triple if it doesn't exist
+        auto searchIter = std::find(solutionSet.begin(), solutionSet.end(), aSolution);
+        if (searchIter == solutionSet.end()) solutionSet.push_back(aSolution);
+    }
+}
+
 std::vector<std::vector <int>> threeSum(std::vector<int>& nums)
 {
-    std::cout << "\nThe vector to analyze is: ";
-    for (auto number : nums) std::cout <<  number << " ";
-
+    if(nums.size() <= 2) return {};
     std::vector<std::vector <int>> solutionSet;
-    //Scans the input vector using a two element sliding window
-    for (std::size_t i = 0; i < nums.size() -1; ++i)
+    
+    for (std::size_t k = 0; k < nums.size(); ++k)
     {
-        auto a = nums.at(i);
-        auto b = nums.at(i+1);
-        //Creates a copy of the input vector removing the scanning window elements from it.
-        auto clone = nums;
-        clone.erase(clone.begin()+i);
-        clone.erase(clone.begin()+i);
-        /*
-        std::cout << "\na = " << a;
-        std::cout << "\nb = " << b;
-        std::cout << "\nThe available numbers are: ";
-        for (auto number : clone) std::cout << number << " ";
-        */
+        //Choose an element of the input vector
+        auto a = nums[k];
         
-        //Considering the sliding window's values computes the remaining one.
-        auto targetValue = -b -a;
-        auto it = find(clone.begin(),clone.end(), targetValue);
-        //If the value exists in the copy vector create and save a solution with the three elements.
-        if (it != clone.end())
+        //Create map of all elements EXCEPT a
+        std::unordered_map<int,int> numsMap;
+        for (std::size_t i = 0; i < nums.size(); ++i)
         {
-         std::vector <int> aSolution{a,b,targetValue};
-         std::sort(aSolution.begin(), aSolution.end());
-            
-         auto solIt = find(solutionSet.begin(),solutionSet.end(), aSolution);
-         if(solIt == solutionSet.end()) solutionSet.push_back(aSolution);
+         if (i != k) numsMap.insert (std::pair<int,int>(nums[i],(int) i));
+        }
+        //Loop all vector elements before a
+        if (k > 0)
+        {
+            for (std::size_t i = 1; i < k; ++i)
+            {
+                auto b = nums[i];
+                findC (a,b, numsMap, i,solutionSet);
+            }
+        }
+        //Loop all vector elements after a
+        if (k + 1 < nums.size())
+        {
+            for (std::size_t i = k+1; i < nums.size(); ++i)
+            {
+                auto b = nums[i];
+                findC (a,b, numsMap, i,solutionSet);
+            }
         }
     }
-    
-    std::cout <<"\nA solution set is: " << std::endl;
-    for (auto aSet : solutionSet) {
-        for (auto aSetElement : aSet) std::cout << aSetElement << " ";
-        std::cout << std::endl;
-    }
-    
     return solutionSet;
 }
