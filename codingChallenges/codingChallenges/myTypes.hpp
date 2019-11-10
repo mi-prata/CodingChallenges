@@ -22,3 +22,6 @@ typedef std::vector<std::vector<std::string>> t_StringMatrix;
 
 ///Type for 2D matrix of char elements.
 typedef std::vector<std::vector<char>> t_CharMatrix;
+
+///Type for 2D matrix of char elements.
+typedef std::pair<int, int> t_IntPair;

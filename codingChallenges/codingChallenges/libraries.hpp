@@ -20,6 +20,8 @@
 #include <map>
 #include <unordered_map>
 #include <set>
+#include <list>
+#include <utility>
 #include "myTypes.hpp"
 
 #endif /* libraries_hpp */

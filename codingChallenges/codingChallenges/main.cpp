@@ -13,7 +13,8 @@
 #include "zig_zag_conversion.hpp"
 #include "3sums.hpp"
 #include "twoSum.hpp"
-
+#include "addTwoNumbers.hpp"
+#include "closestPair.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -78,8 +79,40 @@ int main(int argc, const char * argv[]) {
         for(auto anElement : aSolution) std::cout << anElement << " ";
         std::cout << std::endl;
     }
+    std::cout << std::endl;
     
+    //Add Two Numbers
+
+    linked_list firstList, secondList, resultList;
+    initialization (firstList, secondList);
+
+    firstList.display();
+    std::cout << std::endl;
+    secondList.display();
     
+    int teste = 9;
+    storeValues(resultList, teste);
+    storeValues(resultList, teste);
+    storeValues(resultList, teste);    
+    std::cout << std::endl;
+    resultList.display();
     
+    std::cout << std::endl << std::endl;
+    //closestPair
+    
+    std::vector<int> closestPairVec1 = {-1, 3, 8, 2, 9, 5};
+    std::vector<int> closestPairVec2 = {4, 1, 2, 10, 5, 20};
+    int closestPairTarget = 24;
+    
+    auto closestPairSolution = closestPair(closestPairVec1,
+                                           closestPairVec2,
+                                           closestPairTarget);
+    
+    std::cout << "The pair whose sum yields the closest result to the target value "
+              << closestPairTarget << " is ("
+              << closestPairSolution.first << ", "
+              << closestPairSolution.second <<").";
+     
+    std::cout << std::endl << std::endl;
     return 0;
 }
