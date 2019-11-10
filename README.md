@@ -61,7 +61,7 @@ ___
 >
 > Note: The solution set must not contain duplicate triplets.
 
-* [threeSum](https://github.com/mi-prata/CodingChallenges/blob/5e2dc373a089f9ddac13f1d9d4ab6a8df1d10dfa/codingChallenges/codingChallenges/3sums.cpp#L11)
+* [threeSum](https://github.com/mi-prata/CodingChallenges/blob/b5dbacbafd262e4e7753ddbb61206a70f55b6b88/codingChallenges/codingChallenges/3sums.cpp#L31)
 
 ___
 
@@ -72,4 +72,4 @@ ___
 >
 > You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-* [twoSum](https://github.com/mi-prata/CodingChallenges/blob/5e2dc373a089f9ddac13f1d9d4ab6a8df1d10dfa/codingChallenges/codingChallenges/3sums.cpp#L11)
+* [twoSum](https://github.com/mi-prata/CodingChallenges/blob/5cd8dbdc5791f60fe7214d74a8c372122a357e02/codingChallenges/codingChallenges/twoSum.cpp#L34)
