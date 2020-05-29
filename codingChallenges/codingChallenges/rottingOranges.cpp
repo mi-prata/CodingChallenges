@@ -31,7 +31,8 @@ int orangesRotting(std::vector<std::vector<int>>& grid) {
             const auto &aRottenOrange = rottenOranges[i];
             const auto rightSide = std::make_pair(aRottenOrange.first, aRottenOrange.second + 1);
             const auto freshIterRight = std::find(freshOranges.begin(), freshOranges.end(), rightSide);
-            //If the generated coordinate exists in the fresh orange stack from the input grid, we add it to the rotten this turn set.
+            //If the generated coordinate exists in the fresh orange vector,
+            //we add it to the rotten this turn set.
             if(freshIterRight != freshOranges.end()) rottenThisTurn.insert(rightSide);
 
             const auto leftSide = std::make_pair(aRottenOrange.first, aRottenOrange.second - 1);
@@ -45,11 +46,14 @@ int orangesRotting(std::vector<std::vector<int>>& grid) {
             const auto under = std::make_pair(aRottenOrange.first + 1 , aRottenOrange.second);
             const auto freshIterUnder = std::find(freshOranges.begin(), freshOranges.end(), under);
             if(freshIterUnder != freshOranges.end()) rottenThisTurn.insert(under);
-            //After iterating throught all the currently rotten oranges, and if it's still possible to rot more oranges, we increment our result.
+            //After iterating throught all the currently rotten oranges,
+            //and if it's still possible to rot more oranges, we increment our result.
             if (i == rottenOranges.size() - 1 and not rottenThisTurn.empty())
             {
                 aResult++;
-                //Here is the important part: all the oranges that became rotten during the current turn are added to the rotten oranges vector, on which we are iterating, and are removed from the fresh oranges one.
+                //Here is the important part: all the oranges that became rotten during the current turn
+                //are added to the rotten oranges vector, on which we are iterating,
+                //and are removed from the fresh oranges one.
                 for (const auto &aRotten : rottenThisTurn)
                 {
                     rottenOranges.push_back(aRotten);
