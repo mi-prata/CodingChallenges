@@ -11,10 +11,14 @@
 #include "longest_substring.hpp"
 #include "find_max_consecutive_ones.hpp"
 #include "zig_zag_conversion.hpp"
-#include "3sums.hpp"
 #include "twoSum.hpp"
 #include "addTwoNumbers.hpp"
 #include "closestPair.hpp"
+#include "checkBalancedBrackets.hpp"
+#include "treasureMap.hpp"
+#include "rottenOranges.hpp"
+#include "reverseInteger.hpp"
+#include "containerWithMostWater.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -67,22 +71,8 @@ int main(int argc, const char * argv[]) {
     std::cout << "\nThe indexes whose values sum equals the target are: ";
     for (auto i : twoSumFastAnswer) std::cout << i << " ";
     std::cout << std::endl;
-    
-    //3Sums
-    std::vector<int> threeSumsInput = {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
-    std::cout << "\nThe array is [";
-    for (auto i : threeSumsInput) std::cout << i << " ";
-    std::cout << "]\nThe solution set is: \n";
-    auto threeSumAnswer = threeSum (threeSumsInput);
-    for (auto aSolution : threeSumAnswer)
-    {
-        for(auto anElement : aSolution) std::cout << anElement << " ";
-        std::cout << std::endl;
-    }
-    std::cout << std::endl;
-    
-    //Add Two Numbers
 
+    //Add Two Numbers
     linked_list firstList, secondList, resultList;
     initialization (firstList, secondList);
 
@@ -98,8 +88,8 @@ int main(int argc, const char * argv[]) {
     resultList.display();
     
     std::cout << std::endl << std::endl;
-    //closestPair
     
+    //balancedBrackets
     std::vector<int> closestPairVec1 = {-1, 3, 8, 2, 9, 5};
     std::vector<int> closestPairVec2 = {4, 1, 2, 10, 5, 20};
     int closestPairTarget = 24;
@@ -114,5 +104,47 @@ int main(int argc, const char * argv[]) {
               << closestPairSolution.second <<").";
      
     std::cout << std::endl << std::endl;
+    
+    //balancedBrackets
+    std::string balancedBracketsSuccess = "()[]()()[][]{}[({})]";
+    std::string balancedBracketsFail1 = "";
+    std::string balancedBracketsFail2 = "";
+    std::string balancedBracketsFail3 = "";
+    std::string balancedBracketsFail4 = "";
+    
+    
+    std::cout << "The results for brackting balancing are: "
+              << checkBalancedBrackets(balancedBracketsSuccess) << " "
+              << checkBalancedBrackets(balancedBracketsFail1) << " "
+              << checkBalancedBrackets(balancedBracketsFail2) << " "
+              << checkBalancedBrackets(balancedBracketsFail3) << " "
+              << checkBalancedBrackets(balancedBracketsFail4) << " ";
+     
+    std::cout << std::endl << std::endl;
+    /*
+    //rottenOranges
+    
+    t_IntVector aLine1 = {2,1,1};
+    t_IntVector aLine2 = {1,1,0};
+    t_IntVector aLine3 = {0,1,1};
+
+    t_IntMatrix aOrangesLayout = {aLine1, aLine2, aLine3};
+    
+    auto aTimeToRot = computeTime(aOrangesLayout);
+    
+    std::cout << "It takes " << aTimeToRot
+              << " for all oranges to rot."
+              << std::endl << std::endl;
+    */
+    
+    //reverseInteger
+    std::cout << "Reversing integer -123." << std::endl;
+    std::cout << "The result is: " << reverse(-123) << std::endl << std::endl;
+    
+    //containerWithMostWater
+    std::vector<int> heights = {1,8,6,2,5,4,8,3,7};
+    std::cout << "The largest possible container area is: " << maxArea(heights) << std::endl << std::endl;
+    
+    
     return 0;
 }
