@@ -15,8 +15,7 @@
 #include "addTwoNumbers.hpp"
 #include "closestPair.hpp"
 #include "checkBalancedBrackets.hpp"
-#include "treasureMap.hpp"
-#include "rottenOranges.hpp"
+#include "rottingOranges.hpp"
 #include "reverseInteger.hpp"
 #include "containerWithMostWater.hpp"
 
@@ -121,7 +120,7 @@ int main(int argc, const char * argv[]) {
               << checkBalancedBrackets(balancedBracketsFail4) << " ";
      
     std::cout << std::endl << std::endl;
-    /*
+    
     //rottenOranges
     
     t_IntVector aLine1 = {2,1,1};
@@ -130,12 +129,12 @@ int main(int argc, const char * argv[]) {
 
     t_IntMatrix aOrangesLayout = {aLine1, aLine2, aLine3};
     
-    auto aTimeToRot = computeTime(aOrangesLayout);
+    auto aTimeToRot = orangesRotting(aOrangesLayout);
     
     std::cout << "It takes " << aTimeToRot
-              << " for all oranges to rot."
+              << " turns for all oranges to rot."
               << std::endl << std::endl;
-    */
+    
     
     //reverseInteger
     std::cout << "Reversing integer -123." << std::endl;

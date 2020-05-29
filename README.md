@@ -42,8 +42,11 @@ In this repository you can find my solutions to assorted computer science proble
     - [ZigZag Conversion](#zigZagConversion)
     - [Longest Substring Without Repeating Characters](#longestSubstringWithoutRepeatingCharacters)
 
-___
 
+<a name="easy"></a>
+## Easy
+
+<a name="maxConsecutiveOnes"></a>
 * Max Consecutive Ones from [leetCode](https://leetcode.com/problems/max-consecutive-ones/description/)
 >Given a binary array, find the maximum number of consecutive 1s in this array.
 Example 1:
@@ -63,16 +66,17 @@ The length of input array is a positive integer and will not exceed 10,000
 * [findMaxConsecutiveOnes](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/find_max_consecutive_ones.cpp#L12)
 
 
-<a name="easy"></a>
-### Easy
+
 
 ___
+<a name="reverseInteger"></a>
 * Reverse Integer from [leetCode](https://leetcode.com/problems/reverse-integer/)
 >Given a 32-bit signed integer, reverse digits of an integer.
 
-* [reverseInteger ](https://github.com/mi-prata/CodingChallenges/blob/1fdf1b17b4520cd496df0213a3b1b78f21fef8e6/CodingChallenges/CodingChallenges/zig_zag_conversion.cpp#L9)
+* [reverseInteger ](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/reverseInteger.cpp#L11)
 
 ___
+<a name="twoSum"></a>
 * Two Sum from [leetCode](https://leetcode.com/problems/3sum/description/)
 > Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 >
@@ -82,9 +86,8 @@ ___
 
 
 <a name="medium"></a>
-### Medium
+## Medium
 
-___
 <a name="rottingOranges"></a>
 *  **Rotting Oranges**, from [leetCode](https://leetcode.com/problems/rotting-oranges/)
 
@@ -230,7 +233,7 @@ ___
 
 The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 
-[containerWithMostWater](https://github.com/mi-prata/CodingChallenges/blob/1fdf1b17b4520cd496df0213a3b1b78f21fef8e6/CodingChallenges/CodingChallenges/zig_zag_conversion.cpp#L9)
+[containerWithMostWater](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/containerWithMostWater.cpp#L11)
 
 ___
 <a name="zigZagConversion"></a>
