@@ -18,6 +18,7 @@
 #include "rottingOranges.hpp"
 #include "reverseInteger.hpp"
 #include "containerWithMostWater.hpp"
+#include "firstUniqueCharacterInString.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -144,6 +145,8 @@ int main(int argc, const char * argv[]) {
     std::vector<int> heights = {1,8,6,2,5,4,8,3,7};
     std::cout << "The largest possible container area is: " << maxArea(heights) << std::endl << std::endl;
     
+    //firstUniqueCharacterInString
+    std::cout << "The first unique character in the string loveleetcode (v) is in index: " << retrieveIndexOfFirstUniqueChar("loveleetcode") << std::endl << std::endl;
     
     return 0;
 }

@@ -15,7 +15,7 @@ int maxArea(std::vector<int>& height) {
     //two pointers
     const auto elements = height.size();
     int i = 0;
-    int j = elements - 1;
+    int j = static_cast<int>(elements) - 1;
     while (i < elements and
            j > 0 and
            j > i)

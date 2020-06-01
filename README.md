@@ -65,7 +65,13 @@ The length of input array is a positive integer and will not exceed 10,000
 
 * [findMaxConsecutiveOnes](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/find_max_consecutive_ones.cpp#L12)
 
+___
+<a name="firstUniqueCharacterInString"></a>
+* First Unique Charater in a String from [leetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
+>Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 
+
+* [firstUniqueCharacterInString](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/reverseInteger.cpp#L11)
 
 
 ___
@@ -73,7 +79,7 @@ ___
 * Reverse Integer from [leetCode](https://leetcode.com/problems/reverse-integer/)
 >Given a 32-bit signed integer, reverse digits of an integer.
 
-* [reverseInteger ](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/reverseInteger.cpp#L11)
+* [reverseInteger](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/reverseInteger.cpp#L11)
 
 ___
 <a name="twoSum"></a>
