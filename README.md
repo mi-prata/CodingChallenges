@@ -71,7 +71,7 @@ ___
 >Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 
 
-* [firstUniqueCharacterInString](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/reverseInteger.cpp#L11)
+* [firstUniqueCharacterInString](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/firstUniqueCharacterInString.cpp)
 
 
 ___
@@ -264,3 +264,22 @@ Examples:
 >Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 [longest_Substring](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)
+
+___
+<a name="sortCharactersByFrequency"></a>
+* **Sort Characters By Frequency**, from [leetCode](https://leetcode.com/problems/sort-characters-by-frequency/)
+>Given a string, sort it in decreasing order based on the frequency of characters.
+>
+>Examples:
+>
+>Input:
+"tree"
+>
+>Output:
+"eert"
+>
+>Explanation:
+'e' appears twice while 'r' and 't' both appear once.
+So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
+
+[sortCharactersByFrequency](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)

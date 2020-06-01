@@ -19,6 +19,7 @@
 #include "reverseInteger.hpp"
 #include "containerWithMostWater.hpp"
 #include "firstUniqueCharacterInString.hpp"
+#include "sortCharactersByFrequency.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -147,6 +148,9 @@ int main(int argc, const char * argv[]) {
     
     //firstUniqueCharacterInString
     std::cout << "The first unique character in the string loveleetcode (v) is in index: " << retrieveIndexOfFirstUniqueChar("loveleetcode") << std::endl << std::endl;
+    
+    //sortCharactersByFrequency
+    std::cout << "The string to sort is: tree. The sorted string is: " << returnSortedStringDecreasingFrequency("tree") << std::endl << std::endl;
     
     return 0;
 }
