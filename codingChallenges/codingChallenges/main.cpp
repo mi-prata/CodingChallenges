@@ -20,6 +20,7 @@
 #include "containerWithMostWater.hpp"
 #include "firstUniqueCharacterInString.hpp"
 #include "sortCharactersByFrequency.hpp"
+#include "topKFrequentElements.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -151,6 +152,16 @@ int main(int argc, const char * argv[]) {
     
     //sortCharactersByFrequency
     std::cout << "The string to sort is: tree. The sorted string is: " << returnSortedStringDecreasingFrequency("tree") << std::endl << std::endl;
+    
+    //topKFrequentElents
+    std::vector<int> numsTopK = {1,1,1,2,2,3};
+    const auto topKResult =  returnTopKFrequentElements(numsTopK, 2);
+    std::cout << "The two most frequent elements are: " << std::endl;
+    for (const auto &aElement : topKResult)
+    {
+        std::cout << aElement << ", ";
+    }
+    std::cout << std::endl;
     
     return 0;
 }

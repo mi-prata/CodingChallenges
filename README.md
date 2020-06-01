@@ -4,50 +4,51 @@ In this repository you can find my solutions to assorted computer science proble
 
 
 - [Easy](#easy)
-  - [Max Consecutive Ones](#maxConsecutiveOnes)
-  - [First Unique Character in a String](#firstUniqueCharacterInString)
-  - [Intersection of Two Arrays II](#intersectionOfTwoArrays)
-  - [Reverse String](#reverseString)
-  - [Move Zeroes](#moveZeroes)
-  - [First Bad Version](#firstBadVersion)
-  - [Valid Anagram](#validAnagram)
-  - [Contains Duplicate](#containsDuplicate)
-  - [Reverse Linked List](#reverseLinkedList)
-  - [Rotate Array](#rotateArray)
-  - [Single Number](#singleNumber)
-  - [Best Time To Buy And Sell Stock II](#bestTimeToBuyAndSellStock)
-  - [Maximum Depth of Binary Tree](#maximumDepthOfBinaryTree)
-  - [Plus One](#plusOne)
-  - [Remove Element](#removeElement)
-  - [Remove Duplicates From Sorted Array](#removeDuplicatesFromSortedArray)
-  - [Valid Parentheses](#validParentheses)
-  - [Reverse Integer](#reverseInteger)
-  - [Two Sum](#twoSum)
+  - [485 - Max Consecutive Ones](#maxConsecutiveOnes)
+  - [387 - First Unique Character in a String](#firstUniqueCharacterInString)
+  - [350 - Intersection of Two Arrays II](#intersectionOfTwoArrays)
+  - [344 - Reverse String](#reverseString)
+  - [283 - Move Zeroes](#moveZeroes)
+  - [278 - First Bad Version](#firstBadVersion)
+  - [242 - Valid Anagram](#validAnagram)
+  - [217 - Contains Duplicate](#containsDuplicate)
+  - [206 - Reverse Linked List](#reverseLinkedList)
+  - [189 - Rotate Array](#rotateArray)
+  - [136 - Single Number](#singleNumber)
+  - [122 - Best Time To Buy And Sell Stock II](#bestTimeToBuyAndSellStock)
+  - [104 - Maximum Depth of Binary Tree](#maximumDepthOfBinaryTree)
+  - [66 - Plus One](#plusOne)
+  - [27 - Remove Element](#removeElement)
+  - [26 - Remove Duplicates From Sorted Array](#removeDuplicatesFromSortedArray)
+  - [20 - Valid Parentheses](#validParentheses)
+  - [7 - Reverse Integer](#reverseInteger)
+  - [1 - Two Sum](#twoSum)
 - [Medium](#medium)
-    - [Rotting Oranges](#rottingOranges)
-    - [Top K Frequent Elements](#topKFrequentElements)
-    - [Find the Duplicate Number](#findTheDuplicateNumber)
-    - [Search a 2D Matrix II](#searchA2DMatrixII)
-    - [Find Peak Element](#findPeakElement)
-    - [Sort Colors](#sortColors)
-    - [Search a 2D Matrix](#searchA2DMatrix)
-    - [Set Matrix Zeroes](#setMatrixZeroes)
-    - [Merge Intervals](#mergeIntervals)
-    - [Group Anagrams](#groupAnagrams)
-    - [Rotate Image](#rotateImage)
-    - [Valid Sudoku](#validSudoku)
-    - [Find First and Last Position of Element in Sorted Array    ](#firstAndLastPositionOfElementInSortedArray)
-    - [Search in Rotated Sorted Array](#searchInRotatedSortedArray)
-    - [Container With Most Water](#containerWithMostWater)
-    - [ZigZag Conversion](#zigZagConversion)
-    - [Longest Substring Without Repeating Characters](#longestSubstringWithoutRepeatingCharacters)
+    - [994 - Rotting Oranges](#rottingOranges)
+    - [347 - Top K Frequent Elements](#topKFrequentElements)
+    - [287 - Find the Duplicate Number](#findTheDuplicateNumber)
+    - [240 - Search a 2D Matrix II](#searchA2DMatrixII)
+    - [162 - Find Peak Element](#findPeakElement)
+    - [75 - Sort Colors](#sortColors)
+    - [74 - Search a 2D Matrix](#searchA2DMatrix)
+    - [73 - Set Matrix Zeroes](#setMatrixZeroes)
+    - [56 - Merge Intervals](#mergeIntervals)
+    - [49 - Group Anagrams](#groupAnagrams)
+    - [48 - Rotate Image](#rotateImage)
+    - [36 - Valid Sudoku](#validSudoku)
+    - [34 - Find First and Last Position of Element in Sorted Array    ](#firstAndLastPositionOfElementInSortedArray)
+    - [33 - Search in Rotated Sorted Array](#searchInRotatedSortedArray)
+    - [11 - Container With Most Water](#containerWithMostWater)
+    - [6 - ZigZag Conversion](#zigZagConversion)
+    - [3 - Longest Substring Without Repeating Characters](#longestSubstringWithoutRepeatingCharacters)
+    - [451 - Sort Characters By Frequency](#sortCharactersByFrequency)
 
 
 <a name="easy"></a>
 ## Easy
 
 <a name="maxConsecutiveOnes"></a>
-* Max Consecutive Ones from [leetCode](https://leetcode.com/problems/max-consecutive-ones/description/)
+* **485 - Max Consecutive Ones**, from [leetCode](https://leetcode.com/problems/max-consecutive-ones/description/)
 >Given a binary array, find the maximum number of consecutive 1s in this array.
 Example 1:
 >Input: [1,1,0,1,1,1]
@@ -67,7 +68,7 @@ The length of input array is a positive integer and will not exceed 10,000
 
 ___
 <a name="firstUniqueCharacterInString"></a>
-* First Unique Charater in a String from [leetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
+* **387 - First Unique Charater in a String** from [leetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
 >Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 
 
@@ -76,14 +77,14 @@ ___
 
 ___
 <a name="reverseInteger"></a>
-* Reverse Integer from [leetCode](https://leetcode.com/problems/reverse-integer/)
+* **7 - Reverse Integer**, from [leetCode](https://leetcode.com/problems/reverse-integer/)
 >Given a 32-bit signed integer, reverse digits of an integer.
 
 * [reverseInteger](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/reverseInteger.cpp#L11)
 
 ___
 <a name="twoSum"></a>
-* Two Sum from [leetCode](https://leetcode.com/problems/3sum/description/)
+* **1 - Two Sum**, from [leetCode](https://leetcode.com/problems/3sum/description/)
 > Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 >
 > You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -95,7 +96,7 @@ ___
 ## Medium
 
 <a name="rottingOranges"></a>
-*  **Rotting Oranges**, from [leetCode](https://leetcode.com/problems/rotting-oranges/)
+*  **994 - Rotting Oranges**, from [leetCode](https://leetcode.com/problems/rotting-oranges/)
 
 >In a given grid, each cell can have one of three values:
 > - the value 0 representing an empty cell;
@@ -111,19 +112,19 @@ ___
 * [rottingOranges](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/rottingOranges.cpp)
 ___
 <a name="topKFrequentElements"></a>
-*  **Top K Frequent Elements**, from [leetCode](https://leetcode.com/problems/top-k-frequent-elements/)
+*  **347 - Top K Frequent Elements**, from [leetCode](https://leetcode.com/problems/top-k-frequent-elements/)
 
 >Given a non-empty array of integers, return the **<em>k</em>** most frequent elements.
 
 ___
 <a name="findTheDuplicateNumber"></a>
-*  **Find the Duplicate Number**, from [leetCode](https://leetcode.com/problems/find-the-duplicate-number/)
+*  **287 - Find the Duplicate Number**, from [leetCode](https://leetcode.com/problems/find-the-duplicate-number/)
 
 >Given an array <em>nums</em> containing <em>n</em> + 1 integers where each integer is between 1 and <em>n</em> (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
 
 ___
 <a name="searchA2DMatrixII"></a>
-*  **Search a 2D Matrix II**, from [leetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+*  **240 - Search a 2D Matrix II**, from [leetCode](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 >Write an efficient algorithm that searches for a value in an <em>m x n</em> matrix. This matrix has the following properties:
 > - Integers in each row are sorted in ascending from left to right.
@@ -131,7 +132,7 @@ ___
 
 ___
 <a name="findPeakElement"></a>
-*  **Find Peak Element**, from [leetCode](https://leetcode.com/problems/find-peak-element/)
+*  **162 - Find Peak Element**, from [leetCode](https://leetcode.com/problems/find-peak-element/)
 
 > A peak element is an element that is greater than its neighbors.
 
@@ -142,7 +143,7 @@ ___
 
 ___
 <a name="sortColors"></a>
-*  **Sort Colors**, from [leetCode](https://leetcode.com/problems/sort-colors/)
+*  **75 - Sort Colors**, from [leetCode](https://leetcode.com/problems/sort-colors/)
 
 >Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
 
@@ -151,7 +152,7 @@ ___
 
 ___
 <a name="searchA2DMatrix"></a>
-*  **Search a 2D Matrix**, from [leetCode](https://leetcode.com/problems/search-a-2d-matrix/)
+*  **74 - Search a 2D Matrix**, from [leetCode](https://leetcode.com/problems/search-a-2d-matrix/)
 
 >Write an efficient algorithm that searches for a value in an <em>m x n</em> matrix. This matrix has the following properties:
 > - Integers in each row are sorted from left to right.
@@ -159,25 +160,25 @@ ___
 
 ___
 <a name="setMatrixZeroes"></a>
-*  **Set Matrix Zeroes**, from [leetCode](https://leetcode.com/problems/set-matrix-zeroes/)
+*  **73 - Set Matrix Zeroes**, from [leetCode](https://leetcode.com/problems/set-matrix-zeroes/)
 
 >Given a <em>m x n</em> matrix, if an element is 0, set its entire row and column to 0. Do it **in-place**.
 
 ___
 <a name="mergeIntervals"></a>
-* **Merge Intervals**, from [leetCode](https://leetcode.com/problems/merge-intervals/)
+* **56 - Merge Intervals**, from [leetCode](https://leetcode.com/problems/merge-intervals/)
 
 >Given a collection of intervals, merge all overlapping intervals.
 
 ___
 <a name="groupAnagrams"></a>
-* **Group Anagrams**, from [leetCode](https://leetcode.com/problems/group-anagrams/)
+* **49 - Group Anagrams**, from [leetCode](https://leetcode.com/problems/group-anagrams/)
 
 >Given an array of strings, group anagrams together.
 
 ___
 <a name="rotateImage"></a>
-* **Rotate Image**, from [leetCode](https://leetcode.com/problems/rotate-image/)
+* **48 - Rotate Image**, from [leetCode](https://leetcode.com/problems/rotate-image/)
 
 >You are given an n x n 2D matrix representing an image.
 
@@ -189,7 +190,7 @@ ___
 
 ___
 <a name="validSudoku"></a>
-* **Valid Sudoku**, from [leetCode](https://leetcode.com/problems/valid-sudoku/)
+* **36 - Valid Sudoku**, from [leetCode](https://leetcode.com/problems/valid-sudoku/)
 
 >Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
 
@@ -199,7 +200,7 @@ ___
 
 ___
 <a name="firstAndLastPositionOfElementInSortedArray"></a>
-* **Find First and Last Position of Element in Sorted Array**, from [leetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+* **34 - Find First and Last Position of Element in Sorted Array**, from [leetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 >Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
 
@@ -210,7 +211,7 @@ ___
 
 ___
 <a name="searchInRotatedSortedArray"></a>
-* **Search in Rotated Sorted Array**, from [leetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* **33 - Search in Rotated Sorted Array**, from [leetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 >Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
@@ -232,7 +233,7 @@ Input: nums = [4,5,6,7,0,1,2], target = 0. Output: 4
 ___
 
 <a name="containerWithMostWater"></a>
-* **Container With Most Water**, from [leetCode](https://leetcode.com/problems/container-with-most-water/)
+* **11 - Container With Most Water**, from [leetCode](https://leetcode.com/problems/container-with-most-water/)
 >Given n non-negative integers <em>a<sub>1</sub></em>, <em>a<sub>2</sub></em>, ..., <em>a<sub>n</sub></em> , where each represents a point at coordinate (<em>i</em>, <em>a<sub>i</sub></em>). <em>n</em> vertical lines are drawn such that the two endpoints of line <em>i</em> is at (<em>i</em>, <em>a<sub>i</sub></em>) and (<em>i</em>, 0). Find two lines, which together with <em>x</em>-axis forms a container, such that the container contains the most water.
 >**Note:** You may not slant the container and <em>n</em> is at least 2
 
@@ -244,7 +245,7 @@ The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this c
 
 ___
 <a name="zigZagConversion"></a>
-* **ZigZag Conversion**, from [leetCode](https://leetcode.com/problems/zigzag-conversion/description/)
+* **6 - ZigZag Conversion**, from [leetCode](https://leetcode.com/problems/zigzag-conversion/description/)
 >Receives a string and writes it in zig zag pattern across a given number of rows (input parameter).
 
 
@@ -253,7 +254,7 @@ ___
 
 ___
 <a name="longestSubstringWithoutRepeatingCharacters"></a>
-* **Longest Substring Without Repeating Characters**, from [leetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+* **3 - Longest Substring Without Repeating Characters**, from [leetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
 >Given a string, find the length of the longest substring without repeating characters.
 Examples:
 >
@@ -267,7 +268,7 @@ Examples:
 
 ___
 <a name="sortCharactersByFrequency"></a>
-* **Sort Characters By Frequency**, from [leetCode](https://leetcode.com/problems/sort-characters-by-frequency/)
+* **451 - Sort Characters By Frequency**, from [leetCode](https://leetcode.com/problems/sort-characters-by-frequency/)
 >Given a string, sort it in decreasing order based on the frequency of characters.
 >
 >Examples:
