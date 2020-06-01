@@ -21,6 +21,7 @@
 #include "firstUniqueCharacterInString.hpp"
 #include "sortCharactersByFrequency.hpp"
 #include "topKFrequentElements.hpp"
+#include "kThLargestElement.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -162,6 +163,10 @@ int main(int argc, const char * argv[]) {
         std::cout << aElement << ", ";
     }
     std::cout << std::endl;
+    
+    //kThLargestElement
+    std::vector<int> numsKthLargest = {3,2,3,1,2,4,5,5,6};
+    std::cout << "The 4th largest element is: " << findKthLargest(numsKthLargest,4) << std::endl;
     
     return 0;
 }

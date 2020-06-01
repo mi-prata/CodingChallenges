@@ -3,6 +3,7 @@
 In this repository you can find my solutions to assorted computer science problems.
 
 
+
 - [Easy](#easy)
   - [485 - Max Consecutive Ones](#maxConsecutiveOnes)
   - [387 - First Unique Character in a String](#firstUniqueCharacterInString)
@@ -42,6 +43,7 @@ In this repository you can find my solutions to assorted computer science proble
     - [6 - ZigZag Conversion](#zigZagConversion)
     - [3 - Longest Substring Without Repeating Characters](#longestSubstringWithoutRepeatingCharacters)
     - [451 - Sort Characters By Frequency](#sortCharactersByFrequency)
+    - [215 - Kth Largest Element in an Array](#findKthLargest)
 
 
 <a name="easy"></a>
@@ -116,6 +118,7 @@ ___
 
 >Given a non-empty array of integers, return the **<em>k</em>** most frequent elements.
 
+* [topKFrequentElements](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/rottingOranges.cpp)
 ___
 <a name="findTheDuplicateNumber"></a>
 *  **287 - Find the Duplicate Number**, from [leetCode](https://leetcode.com/problems/find-the-duplicate-number/)
@@ -284,3 +287,10 @@ ___
 So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
 
 [sortCharactersByFrequency](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)
+
+___
+<a name="findKthLargest"></a>
+* **215 - Kth Largest Element in an Array**, from [leetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+>Find the kth largest element in an unsorted array. Note that it is the <em>k<sub>th</sub></em> largest element in the sorted order, not the <em>k<sub>th</sub></em> distinct element.
+
+[findKthLargest](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)
