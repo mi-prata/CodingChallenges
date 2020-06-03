@@ -217,15 +217,15 @@ ___
 * **33 - Search in Rotated Sorted Array**, from [leetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 >Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
-
+>
 >(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
-
+>
 >You are given a target value to search. If found in the array return its index, otherwise return -1.
-
+>
 >You may assume no duplicate exists in the array.
-
+>
 >Your algorithm's runtime complexity must be in the order of <em>O(log n)</em>.
-
+>
 >Example:
 Input: nums = [4,5,6,7,0,1,2], target = 0. Output: 4
 
@@ -286,7 +286,7 @@ ___
 'e' appears twice while 'r' and 't' both appear once.
 So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
 
-[sortCharactersByFrequency](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)
+[sortCharactersByFrequency](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/sortCharactersByFrequency.cpp)
 
 ___
 <a name="findKthLargest"></a>

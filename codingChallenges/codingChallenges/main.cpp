@@ -22,6 +22,7 @@
 #include "sortCharactersByFrequency.hpp"
 #include "topKFrequentElements.hpp"
 #include "kThLargestElement.hpp"
+#include "searchInRotatedArray.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -167,6 +168,10 @@ int main(int argc, const char * argv[]) {
     //kThLargestElement
     std::vector<int> numsKthLargest = {3,2,3,1,2,4,5,5,6};
     std::cout << "The 4th largest element is: " << findKthLargest(numsKthLargest,4) << std::endl;
+    
+    //searchInRotatedArray
+    std::vector<int> rotatedArray = {4,5,6,7,0,1,2};
+    std::cout << "The target value 0 is in index: " << searchRotatedArray(rotatedArray,0) << std::endl;
     
     return 0;
 }
