@@ -23,6 +23,7 @@
 #include "topKFrequentElements.hpp"
 #include "kThLargestElement.hpp"
 #include "searchInRotatedArray.hpp"
+#include "maxProductOfTwoElementsInArray.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -172,6 +173,10 @@ int main(int argc, const char * argv[]) {
     //searchInRotatedArray
     std::vector<int> rotatedArray = {4,5,6,7,0,1,2};
     std::cout << "The target value 0 is in index: " << searchRotatedArray(rotatedArray,0) << std::endl;
+    
+    //maxProductOfTwoElementsInArray
+    std::vector<int> maxProductArray = {3,4,5,2};
+    std::cout << "The max product of two elemtents is: " << returnMaxProduct(maxProductArray) << std::endl;
     
     return 0;
 }

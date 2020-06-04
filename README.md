@@ -230,7 +230,7 @@ ___
 Input: nums = [4,5,6,7,0,1,2], target = 0. Output: 4
 
 
-[searchInRotatedSortedArray](https://github.com/mi-prata/CodingChallenges/blob/1fdf1b17b4520cd496df0213a3b1b78f21fef8e6/CodingChallenges/CodingChallenges/zig_zag_conversion.cpp#L9)
+[searchInRotatedSortedArray](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/searchInRotatedArray.cpp)
 
 
 ___
