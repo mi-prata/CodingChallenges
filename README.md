@@ -24,6 +24,7 @@ In this repository you can find my solutions to assorted computer science proble
   - [20 - Valid Parentheses](#validParentheses)
   - [7 - Reverse Integer](#reverseInteger)
   - [1 - Two Sum](#twoSum)
+  - [1464 -  Maximum Product of Two Elements in an Array](#maxProduct)
 - [Medium](#medium)
     - [994 - Rotting Oranges](#rottingOranges)
     - [347 - Top K Frequent Elements](#topKFrequentElements)
@@ -93,6 +94,24 @@ ___
 
 * [twoSum](https://github.com/mi-prata/CodingChallenges/blob/5cd8dbdc5791f60fe7214d74a8c372122a357e02/codingChallenges/codingChallenges/twoSum.cpp#L34)
 
+___
+<a name="maxProduct"></a>
+* **1464 - Maximum Product of Two Elements in an Array**, from [leetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
+> Given the array of integers nums, you will choose two different indices i and j of that array.
+>
+> Return the maximum value of <em>(nums[i]-1) * (nums[j]-1)</em>.
+>
+> Example:
+>
+>Input: nums = [3,4,5,2]
+>
+>Output: 12
+>
+>Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1) * (nums[2]-1) = (4-1) * (5-1) = 12.
+
+* [maxProduct](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/maxProductOfTwoElementsInArray.cpp)
+
+
 
 <a name="medium"></a>
 ## Medium
@@ -104,9 +123,9 @@ ___
 > - the value 0 representing an empty cell;
 > - the value 1 representing a fresh orange;
 > - the value 2 representing a rotten orange.
-
+>
 >Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
-
+>
 >Return the minimum number of minutes that must elapse until no cell has a fresh orange.  If this is impossible, return -1 instead.
 
 ![](https://assets.leetcode.com/uploads/2019/02/16/oranges.png)
@@ -138,9 +157,9 @@ ___
 *  **162 - Find Peak Element**, from [leetCode](https://leetcode.com/problems/find-peak-element/)
 
 > A peak element is an element that is greater than its neighbors.
-
+>
 >Given an input array nums, where nums[i] ≠ nums[i+1], find a peak element and return its index.
-
+>
 >The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
 
 
@@ -149,7 +168,7 @@ ___
 *  **75 - Sort Colors**, from [leetCode](https://leetcode.com/problems/sort-colors/)
 
 >Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
-
+>
 >Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
 
 
@@ -184,9 +203,9 @@ ___
 * **48 - Rotate Image**, from [leetCode](https://leetcode.com/problems/rotate-image/)
 
 >You are given an n x n 2D matrix representing an image.
-
+>
 >Rotate the image by 90 degrees (clockwise).
-
+>
 >**Note:**
 >You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
 
@@ -196,7 +215,7 @@ ___
 * **36 - Valid Sudoku**, from [leetCode](https://leetcode.com/problems/valid-sudoku/)
 
 >Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
-
+>
 > - Each row must contain the digits 1-9 without repetition.
 > - Each column must contain the digits 1-9 without repetition.
 > - Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.
@@ -206,10 +225,10 @@ ___
 * **34 - Find First and Last Position of Element in Sorted Array**, from [leetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 >Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
-
+>
 >Your algorithm's runtime complexity must be in the order of <em>O(log n)</em>.
 >If the target is not found in the array, return [-1, -1].
-
+>
 >Example: Input: nums = [5,7,7,8,8,10], target = 8. Output: [3,4]
 
 ___
