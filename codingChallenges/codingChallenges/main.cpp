@@ -24,6 +24,7 @@
 #include "kThLargestElement.hpp"
 #include "searchInRotatedArray.hpp"
 #include "maxProductOfTwoElementsInArray.hpp"
+#include "firstAndLastPositionOfElementInSortedArray.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -177,6 +178,13 @@ int main(int argc, const char * argv[]) {
     //maxProductOfTwoElementsInArray
     std::vector<int> maxProductArray = {3,4,5,2};
     std::cout << "The max product of two elemtents is: " << returnMaxProduct(maxProductArray) << std::endl;
+    
+    //firstAndLastPositionOfElementInSortedArray
+    std::vector<int> firstAndLastData = {5,7,7,8,8,10};
+    const auto aFirstAndLastDataResult = searchRange(firstAndLastData, 8);
+    std::cout << "The first and last indexes of element 8 are: (" << aFirstAndLastDataResult.front()
+              << ", " << aFirstAndLastDataResult.back() << ")"
+              << std::endl;
     
     return 0;
 }
