@@ -232,6 +232,7 @@ ___
 >
 >Example: Input: nums = [5,7,7,8,8,10], target = 8. Output: [3,4]
 
+[firstAndLastPositionOfElementInSortedArray](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/firstAndLastPositionOfElementInSortedArray.cpp#L16)
 ___
 <a name="searchInRotatedSortedArray"></a>
 * **33 - Search in Rotated Sorted Array**, from [leetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
