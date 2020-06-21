@@ -45,6 +45,7 @@ In this repository you can find my solutions to assorted computer science proble
     - [3 - Longest Substring Without Repeating Characters](#longestSubstringWithoutRepeatingCharacters)
     - [451 - Sort Characters By Frequency](#sortCharactersByFrequency)
     - [215 - Kth Largest Element in an Array](#findKthLargest)
+    - [15 - 3Sum](#3sum)
 
 
 <a name="easy"></a>
@@ -87,7 +88,7 @@ ___
 
 ___
 <a name="twoSum"></a>
-* **1 - Two Sum**, from [leetCode](https://leetcode.com/problems/3sum/description/)
+* **1 - Two Sum**, from [leetCode](https://leetcode.com/problems/two-sum/)
 > Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 >
 > You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -313,3 +314,22 @@ ___
 >Find the kth largest element in an unsorted array. Note that it is the <em>k<sub>th</sub></em> largest element in the sorted order, not the <em>k<sub>th</sub></em> distinct element.
 
 [findKthLargest](https://github.com/mi-prata/CodingChallenges/blob/8112b8ad62b2c6490c2416a44582572d9a55aafd/CodingChallenges/CodingChallenges/longest_substring.cpp#L11)
+
+___
+<a name="3sum"></a>
+* **15 - 3Sum**, from [leetCode](https://leetcode.com/problems/3sum/)
+>Given an array nums of <em>n</em> integers, are there elements <em>a</em>, <em>b</em>, <em>c</em> in nums such that <em>a + b + c = 0</em>? Find all unique triplets in the array which gives the sum of zero.
+>
+>Note: The solution set must not contain duplicate triplets.
+>
+>Example:
+>
+>Given array nums = [-1, 0, 1, 2, -1, -4],
+>
+>A solution set is:
+>[
+>  [-1, 0, 1],
+>  [-1, -1, 2]
+>]
+
+[3Sum](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/3sum.cpp#L11)

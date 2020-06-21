@@ -41,60 +41,6 @@ std::vector<std::vector<int>> threeSumFast(std::vector<int>& nums)
             else if(aSum < 0) left++;
         }
     }
-    
-    
-    /*
-    //execution is too slow, times out in test 311/313
-    std::map<vector<int>,bool> aTripletsUsed;
-    std::unordered_map<int,int> aElementCount;
-    for (const auto &aElement : nums) aElementCount[aElement]++;
-    
-    for (size_t i = 0; i < nums.size(); i++)
-    {
-        for(size_t j = 0; j < nums.size(); j++)
-        {
-            if (j != i)
-            {
-             const auto aNum = nums[i];
-             const auto bNum = nums[j];
-             const auto cNum = -bNum -aNum;
-             vector<int> aTriplet = {aNum, bNum, cNum};
-             std::sort(aTriplet.begin(), aTriplet.end());
-             const auto cNumCount = aElementCount[cNum];
-            
-             if(cNumCount != 0 and
-                aTripletsUsed[{aTriplet[0], aTriplet[1]}] == false)
-             {
-              aTripletsUsed[{aTriplet[0], aTriplet[1]}] = true;
-             
-              if ((cNum == bNum) &&
-                  (cNum != aNum) &&
-                  (cNumCount > 1))
-              {
-                  aResultSet.push_back(aTriplet);
-              }
-              else if((cNum == aNum) &&
-                      (cNum != bNum) &&
-                      (cNumCount > 1))
-              {
-                  aResultSet.push_back(aTriplet);
-              }
-              else if((cNum == aNum) &&
-                      (cNum == bNum) &&
-                      (cNumCount > 2))
-              {
-                  aResultSet.push_back(aTriplet);
-              }
-              else if (aNum != cNum &&
-                       bNum != cNum)
-              {
-                  aResultSet.push_back(aTriplet);
-              }
-             }
-            }
-        }
-    }
-    */
     return aResultSet;
 }
 
