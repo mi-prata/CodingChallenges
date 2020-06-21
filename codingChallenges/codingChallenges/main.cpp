@@ -25,6 +25,7 @@
 #include "searchInRotatedArray.hpp"
 #include "maxProductOfTwoElementsInArray.hpp"
 #include "firstAndLastPositionOfElementInSortedArray.hpp"
+#include "3sum.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -185,6 +186,19 @@ int main(int argc, const char * argv[]) {
     std::cout << "The first and last indexes of element 8 are: (" << aFirstAndLastDataResult.front()
               << ", " << aFirstAndLastDataResult.back() << ")"
               << std::endl;
+    
+    //threeSum
+    std::vector<int> threeSumVector = {-1, 0, 1, 2, -1, -4};
+    const auto aThreeSumSolutionSet = threeSumFast(threeSumVector);
+    std::cout << "The three sum for the set {-1, 0, 1, 2, -1, -4} are: " << std::endl;
+    for (const auto &aSolution : aThreeSumSolutionSet)
+    {
+        for (const auto &aElement : aSolution)
+        {
+            std::cout << aElement << " ";
+        }
+        std::cout << std::endl;
+    }
     
     return 0;
 }
