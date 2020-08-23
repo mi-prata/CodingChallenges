@@ -220,6 +220,8 @@ ___
 > - Each column must contain the digits 1-9 without repetition.
 > - Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.
 
+[validSudoku](https://github.com/mi-prata/CodingChallenges/blob/master/codingChallenges/codingChallenges/validSudoku.cpp)
+
 ___
 <a name="firstAndLastPositionOfElementInSortedArray"></a>
 * **34 - Find First and Last Position of Element in Sorted Array**, from [leetCode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
