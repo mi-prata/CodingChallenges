@@ -26,6 +26,7 @@
 #include "maxProductOfTwoElementsInArray.hpp"
 #include "firstAndLastPositionOfElementInSortedArray.hpp"
 #include "3sum.hpp"
+#include "validSudoku.hpp"
 
 int main(int argc, const char * argv[]) {
 
@@ -199,6 +200,20 @@ int main(int argc, const char * argv[]) {
         }
         std::cout << std::endl;
     }
+    
+    //valid Sudoku
+    std::vector<std::vector<char>> aSudokuBoard
+    {{'5','3','.','.','7','.','.','.','.'},
+     {'6','.','.','1','9','5','.','.','.'},
+     {'.','9','8','.','.','.','.','6','.'},
+     {'8','.','.','.','6','.','.','.','3'},
+     {'4','.','.','8','.','3','.','.','1'},
+     {'7','.','.','.','2','.','.','.','6'},
+     {'.','6','.','.','.','.','2','8','.'},
+     {'.','.','.','4','1','9','.','.','5'},
+     {'.','.','.','.','8','.','.','7','9'}};
+    
+    std::cout << "Is board valid: " << isValidSudoku(aSudokuBoard) << std::endl;
     
     return 0;
 }
